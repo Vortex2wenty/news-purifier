@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: adamFont;
+  src: url(fonts/ADAM.CGPRO.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background: #34303E !important;
+}
+
+.nav-link, .navbar-brand {
+  color: #EADCD9 !important;
+}
+
+body {
+  background: #A15555;
+}
+
+.display-5.fw-bold {
+  color: #EADCD9;
+  font-family: 'adamFont';
+}
+
+.lead.mb-4, .text-center h2, ul li {
+  color: #EADCD9;
+}
+
+.lead.mb-4.m-auto, .text-center h2 {
+
 }
